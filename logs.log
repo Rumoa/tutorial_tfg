@@ -1,0 +1,12 @@
+2025-05-06 19:04:22,013 [INFO] ResultLogger initialized.
+No existing results file found; starting fresh.
+2025-05-06 19:04:23,336 [INFO] Flush interval reached (1 records). Flushing to disk...
+2025-05-06 19:04:23,337 [INFO] Flushing 1 new records to data/results.parquet.
+2025-05-06 19:04:23,346 [INFO] Successfully wrote 1 total records to data/results.parquet.
+2025-05-06 19:04:23,393 [INFO] Flush interval reached (1 records). Flushing to disk...
+2025-05-06 19:04:23,394 [INFO] Flushing 1 new records to data/results.parquet.
+2025-05-06 19:04:23,404 [INFO] Read 1 existing records; total will be 2.
+2025-05-06 19:04:23,405 [INFO] Successfully wrote 2 total records to data/results.parquet.
+2025-05-06 19:04:31,919 [INFO] Found 2 existing experiments to skip.
+2025-05-06 19:04:33,197 [INFO] Skipping already done exp_id=24e84c2577111546310a509b32a51856698c64d31bd4ef20fea02efd71f764d0
+2025-05-06 19:04:33,197 [INFO] Skipping already done exp_id=7989f30de61ec7e956891d6ef51559efd44c819da75dd50fd67dd4a0a1464392
