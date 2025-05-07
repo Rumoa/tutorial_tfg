@@ -1,3 +1,30 @@
+
+# DOCS:
+Para más información del ordenador cuántico, cómo conectarse, etc. [docs](https://cesga-docs.gitlab.io/qmio-user-guide/index.html)
+
+
+
+
+
+
+# Para usar el simulador en casa, tenéis que instalar en vuestro entorno qmiotools
+
+- Activamos el entorno en el cual queremos instalar qmiotools (dependiendo de si usáis conda, venv, ...)
+- Clonamos el repositorio
+`git clone https://github.com/gomeztato/qmiotools.git`
+- Vamos al directorio 
+`cd qmiotools`
+- Usamos pip para instalar qmiotools
+
+- `pip install qiskit==1.3.0 ` Instalamos una versión de qiskit compatible con qmiotools
+`pip install .` (El punto busca si hay algún fichero setup.py o pyproject.toml)
+- Si tenéis errors mirad qué incompatibilidades de versiones de paquetes tenéis. 
+
+Ya podéis usar FakeBackend como en el ejemplo usando el truco del servidor. 
+
+
+
+
 # Cómo lanzar programas usando la qpu y librerías externas
 
 ## Creación de entorno virtual e instalación de librerías.
@@ -22,20 +49,3 @@ En el ejemplo de prueba, lo único que añadimos es que tenemos que activar nues
 
 Para lanzar el trabajo: `sbatch trabajo.sh` (si hemos llamado "trabajo.sh" al slurm job file)
 Para comprobar la cola de trabajos: `squeue` (si queréis filtrar por vuestro usuario: `squeue -u tunombredeusuario`)
-
-
-
-
-# Para usar el simulador en casa, tenéis que instalar en vuestro entorno qmiotools
-
-- Activamos el entorno en el cual queremos instalar qmiotools (dependiendo de si usáis conda, venv, ...)
-- Clonamos el repositorio
-`git clone https://github.com/gomeztato/qmiotools.git`
-- Vamos al directorio 
-`cd qmiotools`
-- Usamos pip para instalar qmiotools
-`pip install .` (El punto busca si hay algún fichero setup.py o pyproject.toml)
-- Si tenéis errors mirad qué incompatibilidades de versiones de paquetes tenéis. 
-
-Ya podéis usar FakeBackend como en el ejemplo usando el truco del servidor. 
-
