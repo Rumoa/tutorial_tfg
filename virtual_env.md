@@ -17,7 +17,7 @@ Para más información del ordenador cuántico, cómo conectarse, etc. [docs](ht
 - Usamos pip para instalar qmiotools
 
 - `pip install qiskit==1.3.0 ` Instalamos una versión de qiskit compatible con qmiotools
-`pip install .` (El punto busca si hay algún fichero setup.py o pyproject.toml)
+- Instalamos qmiotools: `pip install .` (El punto busca si hay algún fichero setup.py o pyproject.toml)
 - Si tenéis errors mirad qué incompatibilidades de versiones de paquetes tenéis. 
 
 Ya podéis usar FakeBackend como en el ejemplo usando el truco del servidor. 
